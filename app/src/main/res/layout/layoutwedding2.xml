@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CIVIL WEDDING AND PARTNERSHIP CEREMONIES"
+                android:id="@+id/textView1733"
+                android:textSize="25dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:textColor="#181818"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Holding a civil wedding ceremony and reception at the one venue creates a feeling of intimacy between the happy couple and their guests. It can also simplify the arrangements for that very special day, making it perfect."
+                android:id="@+id/textView17"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:textColor="#1c1c1c"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20rr"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#1c1c1c"
+                android:text="We are delighted to be able to offer you the option of holding your wedding at Wyndham Garden Grantham."
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:layout_marginBottom="10dp" />
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20eewwrr"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#1c1c1c"
+                android:text="We hold a seven day licence for the Allington Suite, Newton Suite and our charming atmospheric Barn Restaurant. Civil Ceremonies cost £345.00 excluding reception and registrars fees."
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:layout_marginBottom="10dp" />
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1ss7"
+                android:textSize="25dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:textColor="#181818"
+                android:text="TO BOOK A CIVIL CEREMONY"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="2dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact our Sales Coordinator at Wyndham Garden, to check availability and view the rooms."
+                android:id="@+id/textView19"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select your date and make a provisional booking with us"
+                android:id="@+id/textView22bb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                android:textStyle="bold" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact the Registrar to ensure that they are available to marry you on the date and time you require, giving them details of your Notice of Marriage"
+                android:id="@+id/textView22xx"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                android:textStyle="bold" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Once you have received confirmation from the Superintendent Registrar you must then confirm your booking with us and pay your deposit."
+                android:id="@+id/textView22c"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                android:textStyle="bold" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can contact the Central Call Line for the registrar on ( 01522 782244 ) where a helpful team of advisors will be able to answer your questions and make an appointment for the Superintendent Registrar"
+                android:id="@+id/textView22x"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#1c1c1c"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp" />
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOOKING YOUR WEDDING"
+                android:id="@+id/textView22w"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#181818"
+                android:textSize="25dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We want to make the whole process of booking your special day simple and pleasurable."
+                android:id="@+id/textView22a"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000"
+                android:textSize="15dp"
+                geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                android:textStyle="bold" />
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="We would suggest before you book your venue you contact our wedding co-ordinator to arrange a visit, to see what we can offer. wed ing bookingsDuring your visit we will be able to check availability for your chosen date. We can hold provisional bookings for 14 days, in which time we can provide prices based on your requirements."
+                android:id="@+id/textView2ddff2a"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#1c1c1c"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You may wish to visit us again to talk through your detailed requirements with our wedding co-ordinator, before confirming your booking."
+                android:id="@+id/textView20ddaa"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:layout_marginTop="5dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView1ss7ss"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:textColor="#1c1c1c"
+                android:text="When confirming your booking we will require a non-refundable deposit of £600.00 along with the signed copy of your booking form. We can then confirm your reservation in writing. All bookings are subject to the Standard Terms and Conditions of Wyndham Garden Grantham."
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You are required to make two interim payments, however the dates and details of these will be in your booking contract, your final payment is then due in full 30 days prior to the date of your Wedding."
+                android:id="@+id/textView22bb33"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#1c1c1c"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All prices are inclusive of service and VAT."
+                android:id="@+id/textView22xxff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#1c1c1c"
+                android:textSize="18dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

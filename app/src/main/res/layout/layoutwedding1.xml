@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:alpha="0.8">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView9"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/wedd1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WEDDINGS IN LINCOLNSHIRE"
+                    android:id="@+id/textView17"
+                    android:layout_margin="10dp"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Congratulations on your forthcoming wedding."
+                    android:id="@+id/textView19"
+                    android:textColor="#000"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We are here to ensure that you celebrate your special day in style in our idyllic hideaway, which radiates individual charm coupled with a warm and welcoming atmosphere. With our emphasis on quality and personal service, we can help you plan one of the most important days of your life, taking some of the pressure off you."
+                    android:id="@+id/textView20"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your wedding can be planned around your dreams and aspirations."
+                    android:id="@+id/textView21"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-Bold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Before choosing your wedding venue, we recommend you visit us to experience the delights of our charming hotel and meet with one of our friendly, professional wedding co-ordinators who can guide you through your special day. Wyndham Garden Grantham is the perfect choice for your civil wedding in Lincolnshire."
+                    android:id="@+id/textView12"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="To speak to one of our wedding co-ordinators please call us on 01400 250909."
+                    android:id="@+id/textView202245fft"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:id="@+id/imageView92"
+                android:background="@drawable/wedd2"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YOUR WEDDING RECEPTION"
+                    android:id="@+id/textView172"
+                    android:layout_margin="10dp"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We have two beautiful suites for you to choose from for the large traditional wedding reception or the more intimate gathering."
+                    android:id="@+id/textView2022"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our experienced team will be on hand every step of the way to ensure everything goes according to plan whether it be a formal or informal wedding, we can assist with as much, or as little help as you require."
+                    android:id="@+id/textView2133"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The suite you choose can be decorated to personalise your reception, matching the theme for your big day."
+                    android:id="@+id/textView1244"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We are happy to offer our expertise with table/floral/room decorations, place settings and table plans to make your day perfect."
+                    android:id="@+id/textView124224"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE ALLINGTON SUITE"
+                    android:id="@+id/textView193"
+                    android:textColor="#181818"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView19344"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:text="Our delightful Allington Suite with it’s outside seating and landscaped patio area has been designed with weddings in mind. Self contained with its own bar, and reception area it can comfortably accommodate up to 170 guests for a Wedding Breakfast and 250 for an Evening Reception"
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="THE NEWTON SUITE"
+                    android:id="@+id/textView19355"
+                    android:textColor="#181818"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Newton Suite provides a romantic setting for the intimate wedding reception, accommodating up to 65 guests for a Wedding Breakfast and 120 for an Evening Reception."
+                    android:id="@+id/textView222440"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="If your preference is to tailor make your reception from our menu selector, drinks package and room hire, then we are more than happy to discuss your requirements with you, after all it is your day."
+                    android:id="@+id/textView22233440"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="We have a wide range of activities and artists available to make your memorable day extra special."
+                    android:id="@+id/text33440"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <include layout="@layout/layoutwedding2"/>
+    </LinearLayout>
+</ScrollView>
+

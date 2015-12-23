@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bbbbbb"
+    android:padding="2dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/search"
+            android:gravity="bottom">
+
+            EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:textColor="#ffffff"
+                android:textSize="15dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                android:layout_marginBottom="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/home">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView2"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/home" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:id="@+id/textView2"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:textColor="#474747" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/facility">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView3"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/slide_menu_icon_3" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FACILITIES"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#474747" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="left|center"
+            android:id="@+id/offers">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="35dp"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/offers"
+                android:layout_marginBottom="2dp" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OFFERS"
+                android:id="@+id/textView"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#474747" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/rooms">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView6"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/key" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ROOMS"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:id="@+id/textView65"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#474747" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#bbbbbb"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/contacts">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/imageView4"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/contact" />
+
+            <views.TypefaceTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT"
+                geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                android:id="@+id/textView4"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#474747" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="bottom|center">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/slidemenu_logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WYNDHAM GARDEN"
+                android:id="@+id/textView5"
+                android:textSize="18dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#64CA5C" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GRANTHAM"
+                android:id="@+id/textView6"
+                android:textSize="18dp"
+                android:textColor="#000"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

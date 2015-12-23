@@ -1,0 +1,215 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.wyndhamgarden.app.Facility">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/conferencenew"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/conferencewyt">
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Creating an effective working environment "
+                        android:id="@+id/cntxt"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="gone" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="More Info"
+                        android:id="@+id/moreinfoconf"
+                        android:background="#ffffff"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:padding="4dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#000"
+                        android:visibility="visible"
+                        android:id="@+id/conferenceblack"></LinearLayout>
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CONFERENCE ROOM"
+                        android:id="@+id/textView10"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#ffffff"
+                        android:layout_marginTop="20dp"
+                        android:textSize="22dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"/>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/wedding"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/weddingwyt">
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your wedding can be planned around your aspirations and dreams"
+                        android:id="@+id/wedtxt"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:textColor="#ffffff"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="gone" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="More Info"
+                        android:id="@+id/weddingmoreinfo"
+                        android:background="#ffffff"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:padding="4dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#000"
+                        android:visibility="visible"
+                        android:id="@+id/weddingsblack"></LinearLayout>
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView1022"
+                        android:layout_gravity="top|center"
+                        android:textColor="#ffffff"
+                        android:textSize="22dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:text="WEDDINGS"
+                        android:layout_marginTop="20dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/christ"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:id="@+id/christmaswyt">
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Everything you need to enjoy a festive celebration at Wyntham garden hotel"
+                        android:id="@+id/chrtxt"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:textColor="#ffffff"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="5dp"
+                        android:visibility="gone" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="More Info"
+                        android:id="@+id/moreinfochrist"
+                        android:background="#ffffff"
+                        android:textColor="#000"
+                        android:textSize="20dp"
+                        android:padding="4dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+
+                        android:layout_gravity="bottom|center"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="gone" />
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:alpha="0.7"
+                        android:background="#000"
+                        android:visibility="visible"
+                        android:id="@+id/christmasblack"></LinearLayout>
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CHRISTMAS"
+                        android:id="@+id/textView1033"
+                        android:layout_gravity="top|center"
+                        android:textColor="#ffffff"
+                        android:textSize="22dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:layout_marginTop="20dp" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/back"
+                android:layout_gravity="top|left"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/back" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

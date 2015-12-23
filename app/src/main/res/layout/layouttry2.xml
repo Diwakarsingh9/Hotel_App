@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONFERENCE SUITES"
+                    android:id="@+id/textView1733"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp" />
+
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/imageView9"
+                android:background="@drawable/floorplan"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DELEGATED PACKAGES"
+                    android:id="@+id/textView17"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20rr"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="We have designed two delegate packages, an 8 and 24 hour pack. However we can design a package specifically to suit your requirements. For the smaller and shorter meetings you may wish to consider room hire and select from our extensive menu."
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1ss7"
+                    android:layout_margin="10dp"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:text="8 HOUR DAY DELEGATE TARIFF" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="£35.00 per person"
+                    android:id="@+id/textView19"
+                    android:textColor="#000"
+                    android:textSize="15dp"
+                    geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inclusive of Conference Suite Hire"
+                    android:id="@+id/textView22bb"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 servings of tea, coffee and biscuits"
+                    android:id="@+id/textView22xx"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 course hot &amp; cold Select Lincolnshire buffet lunch"
+                    android:id="@+id/textView22c"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mints, iced water and cordials"
+                    android:id="@+id/textView22x"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conference notepads and pencils"
+                    android:id="@+id/textView22w"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flipchart, whiteboard and pens"
+                    android:id="@+id/textView22a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data projector and screen (Please Contact Us for pricing)"
+                    android:id="@+id/textView2ddff2a"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free wi-fi"
+                    android:id="@+id/textView20ddaa"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:layout_marginTop="10dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1ss7ss"
+                    android:layout_margin="10dp"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:text="24 HOUR DAY DELEGATE TARIFF" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="£125.00 per person"
+                    android:id="@+id/textView19ww"
+                    android:textColor="#000"
+
+                    android:textSize="15dp"
+                    geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Inclusive of Conference Suite Hire"
+                    android:id="@+id/textView22bb33"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 servings of tea, coffee and biscuits"
+                    android:id="@+id/textView22xxff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 course hot &amp; cold Select Lincolnshire buffet lunch"
+                    android:id="@+id/textView22cggg"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mints, iced water and cordials"
+                    android:id="@+id/textView22xhh"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Conference notepads and pencils"
+                    android:id="@+id/textView22wyyu"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Flipchart, whiteboard and pens"
+                    android:id="@+id/textView22ajju"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Data projector and screen (Please Contact Us for pricing)"
+                    android:id="@+id/yuhhj"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Free wi-fi"
+                    android:id="@+id/textView20ddaa7766"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:layout_marginTop="10dp" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accommodation in Standard, Superior or Executive Suites dependent on package"
+                    android:id="@+id/yuhhj2233ee"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 Course Table D’Hote in the Barn Restaurant"
+                    android:id="@+id/dddee"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full English Breakfast"
+                    android:id="@+id/yuhhj22"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full use of Wyndham Garden Granthams Health Club"
+                    android:id="@+id/textView20dd23"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:textColor="#1c1c1c"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CONFERENCE MENUS"
+                    android:id="@+id/textViewqq17"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp" />
+
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView20rwwr"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="The attached menu is an example of the food we can provide for your conference, however if you don’t like what you see and would like to discuss alternatives please do not hesitate to contact us."
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LUNCH OPTIONS"
+                    android:id="@+id/textVwqq17"
+                    android:textSize="25dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                    android:textColor="#181818"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwraa"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Chef’s selection of Sandwiches, Wraps &amp; Fries £7.25 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwraaqq"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Chef’s choice of Hot &amp; Cold Finger Buffet from £9.95 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwrddcc"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Two course hot luncheon from £13.95 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwreerre"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Three course hot luncheon from £15.95 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwrtrr"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Chef’s choice of Hot &amp; Cold Buffet without desserts £10.95 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwrjgfhg"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Chef’s choice of Hot &amp; Cold Buffet with desserts £13.95 per person"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                <views.TypefaceTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textVirwwrjkgjjgj"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="#1c1c1c"
+                    android:text="Two Course Hot &amp; Cold Delegate Buffet"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="18dp"
+                    geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+

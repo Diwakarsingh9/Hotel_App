@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:geekui="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:padding="10dp"
+    android:background="#ffffff"
+    android:alpha="0.8">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageView9"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/conference1"
+                    />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="CREATING AN EFFECTIVE WORKING ENVIRONMENT "
+                        android:id="@+id/textView17"
+                        android:layout_margin="10dp"
+                        android:textSize="25dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                        android:textColor="#181818" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="With 110 bedrooms, 3 conference suites and 8 meeting rooms we have the capacity to accommodate large residential conferences, seminars and smaller meetings in our stylish hotel Grantham. "
+                        android:id="@+id/textView19"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We have created an effective working environment to help you achieve the results you are looking for whilst offering an enjoyable experience in our stylish hotel Grantham. We can tailor make your conference to meet your requirements and budget. Our conference co-ordinator will work with you from your initial enquiry, through to your conference/ meeting to ensure your requirements are met and your conference is a resounding success."
+                        android:id="@+id/textView20"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                        />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We can offer you a range of conference suites and meeting rooms, designed to meet your conference needs in our hotel Grantham. With three conference suites and additional meeting rooms, we can cater for both large and small groups. Our purpose built Allington Suite can accommodate up to 300 delegates theatre style."
+                        android:id="@+id/textView21"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our perfect location means you and your delegates don’t waste time trying to find us, or get entangled in urban traffic, and once here you can comfortably park in our large car park.  Our conference suites and meeting rooms are individually designed with their own character and charm. All rooms have screen, flipcharts and pens plus free wi-fi included in the room hire and delegate rates. Further speacialist equipment is avaliable on request."
+                        android:id="@+id/textView12"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="30dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/imageView92"
+                    android:background="@drawable/conference2"
+                  />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="EAST MIDLANDS CONFERENCE FACILITIIES"
+                        android:id="@+id/textView172"
+                        android:layout_margin="10dp"
+                        android:textSize="25dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"
+                        android:textColor="#181818" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Our stylish retreat located just one mile from the A1 north of Grantham offers some of the best conference facilities in the East Midlands. With three conference suites and additional meeting rooms we can cater for both and small groups accommodating up to 300 delegates theatre style."
+                        android:id="@+id/textView2022"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We have designed our conference packages to meet the business market, however we appreciate your requirements may be different to our standard packages and can therefore design a package to suit your needs. To make life just that little simpler our 8 and 24 hour delegate packs include room hire and standard equipment."
+                        android:id="@+id/textView2133"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="One of our conference coordinators will work with you from your initial enquiry, through to your conference/meeting to ensure your requirements are met and your conference is a resounding success. The charm of Wyndham Garden Grantham, and perfect country location create an effective environment that helps you achieve the results you are looking for."
+                        android:id="@+id/textView1244"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="In addition to conferences we can offer:"
+                        android:id="@+id/textView124224"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#1c1c1c"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-) The Office Christmas Party"
+                        android:id="@+id/textView193"
+                        android:textColor="#000"
+
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp" />
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView19344"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:text="-) Your Staff Summer Barbeque"
+
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp" />
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-) Exhilarating, team building corporate days"
+                        android:id="@+id/textView19355"
+                        android:textColor="#000"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-Bold.ttf"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp" />
+
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We want your stay with us to be an enjoyable one. With exquisite food served in the atmospheric Barn Restaurant and Bar and our state of the art Health Club  you can relax after that busy conference."
+                        android:id="@+id/textView222440"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#1c1c1c"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf"/>
+                    <views.TypefaceTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="We look forward to welcoming you and hosting your event."
+                        android:id="@+id/textView22233440"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="#1c1c1c"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18dp"
+                        geekui:customTypeface="fonts/JosefinSans-SemiBold.ttf" />
+                </LinearLayout>
+<include layout="@layout/layouttry2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
